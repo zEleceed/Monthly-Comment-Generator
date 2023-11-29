@@ -1,4 +1,4 @@
 # Classroom Management System
 
 ## Overview
-The Classroom Management System is a specialized tool designed for educators to record daily observations and comments about students. It organizes these notes into .txt files within student-specific folders, streamlining the process of documenting student behavior and activities. These text files are structured for easy export and can be used as input for AI-based applications, enabling the generation of comprehensive, reader-friendly comments for parents. This approach enhances the efficiency of communication between educators and parents, providing a clear and detailed account of student progress and behavior.
+The Classroom Management System is a tool for teachers to record daily notes on students. It saves these notes in .txt files in folders for each student, making it easy to keep track of their behavior and activities. These files can be used with AI tools to create detailed, easy-to-read reports for parents, improving communication and giving a clear view of each student's progress.
