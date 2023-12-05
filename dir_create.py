@@ -1,11 +1,12 @@
 from pathlib import Path
 
 getDirectroy = Path.cwd()
+
+
 def dir_create(pathname, folderName):
-    pathname =
-    return Path("C:/Users/zEleceed/Desktop/Comments/").mkdir(parents=True, exist_ok=True)
+    full_path = pathname / folderName
+    full_path.mkdir(parents=True, exist_ok=True)
+    return full_path
 
 
-greatness = (dir_create(getDirectroy
-
-print(greatness)
+dir_create(getDirectroy, "greatness")

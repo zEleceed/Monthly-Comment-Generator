@@ -2,13 +2,9 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-path = Path.cwd()
+path = Path.cwd() / "rawr"
+print(path.is_dir())
 
-rawr = Path.cwd().iterdir()
-for file in rawr:
-    print(file)
+os.chdir(path)
 
-
-class Program:
-    def execute(self):
-        pass
+print(Path.cwd())
