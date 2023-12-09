@@ -1,10 +1,21 @@
 import os
 from datetime import datetime
 from pathlib import Path
+from dir_list import dir_list
 
-path = Path.cwd() / "rawr"
-print(path.is_dir())
 
-os.chdir(path)
+class Program:
+    def __init__(self):
+        pass
 
-print(Path.cwd())
+    def execute(self):
+        print(f'Current Directory: {Path.cwd().name}')
+        for i in dir_list(Path.cwd()):
+            print(i.name)
+
+
+        pass
+
+
+hehe = Program()
+hehe.execute()

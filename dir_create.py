@@ -1,6 +1,6 @@
 from pathlib import Path
 
-getDirectroy = Path.cwd()
+getDirectory = Path.cwd()
 
 
 def dir_create(pathname, folderName):
@@ -9,4 +9,5 @@ def dir_create(pathname, folderName):
     return full_path
 
 
-dir_create(getDirectroy, "greatness")
+fileName = input(f'Folder Name: ')
+dir_create(getDirectory, fileName)
