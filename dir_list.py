@@ -16,10 +16,5 @@ def dir_list(givenDirectory):
             continue
         elif folder.is_dir():
             real_list.append(folder)
-    return real_list
+    return sorted(real_list)
 
-
-
-rawr = r'C:\Users\zEleceed\Desktop\POLY\Summit\Summit NF'
-
-print(dir_list(rawr))
