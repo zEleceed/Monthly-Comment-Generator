@@ -12,7 +12,7 @@ class Program:
         print(f'Current Directory: {Path.cwd().name}')
         for i in dir_list(Path.cwd()):
             print(i.name)
-
+        print(f'Choose a Directory')
 
         pass
 
