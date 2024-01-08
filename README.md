@@ -12,3 +12,7 @@ The Classroom Management System is a tool for teachers to record daily notes on 
 6. **Parent Reports**: Creates clear reports for parents.
 7. **Efficient Communication**: Improves how teachers and parents communicate.
 8. **Student Progress Overview**: Provides a clear view of student progress.
+
+
+
+##Currently on Hold
